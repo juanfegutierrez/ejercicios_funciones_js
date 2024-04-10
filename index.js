@@ -154,4 +154,41 @@ let equipos= function(juguete01, juguete02, juguete03, juguete04, juguete05, jug
 equipos("Balones, ", "Trenes, ", "carros, ", "Cintas, ", "Rascaencías, ", "Maracas, ", "Tambor, ", "Perros, ", "Peluches, ", "Cuentas, ", "Estrellas.")
 
 //Funciones 5
+let matematicas= function(a, b, c, d, e, f, g, h, i, j, k){
+    console.log(a + b + c + d + e + f + g + h + i + j +k);
+}
+matematicas(2, 10, 50, 87, 45, 56, 97, 145, 10247, 5,5778)
+    
+//Función 6
+let cuartos= {
+    equipo1: "Real Madrid",
+    equipo2: "Paris Sanit German",
+    equipo3: "Barcelona",
+    equipo4: "Manchester City",
+}    
+let champiponsFinal= function(obj){
+    const {equipo1, equipo2, equipo3, equipo4}= obj
+    console.log(`Los equipos de Cuarto de Final son:  ${equipo1}, ${equipo2}, ${equipo3}, ${equipo4}.`)
+
+}
+
+champiponsFinal(cuartos)
+
+//Función 7
+let promediogol= function(a, b, c, d, e, f, g, h, i, j, k){
+    const promedio = (a + b + c + d + e + f + g + h + i + j +k)/11;
+    console.log(promedio)
+
+}
+promediogol(3, 0, 2, 1, 4, 0, 0, 1, 3, 2, 1)
+
+//Función 8
+let simple= function (x){
+    const suma =x / 1;
+    console.log("La suma es: ", suma)
+}
+
+simple(1)
+
+//Función 9
 
