@@ -191,4 +191,10 @@ let simple= function (x){
 simple(1)
 
 //Función 9
+let elmejorequipo = 2;
+    if (promedio >2){
+        console.log("ganadores")
+    }
+
+promediogol(1, 1, 1, 1, 1, 2, 2, 3, 0, 3)
 
