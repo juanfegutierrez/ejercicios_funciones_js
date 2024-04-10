@@ -1,4 +1,5 @@
-//Funciones declarativas
+/*Funciones declarativas
+*/
 //Función 1
 function saludar(nombre, edad) {
     console.log(`Mi nombre es ${nombre} y tengo ${edad} años.`);
@@ -80,4 +81,77 @@ function pagototal(a, b){
 pagototal(80, 1)
 
 //Función 9
+function limpiezas (a, b, c, d, e, f, g, h, i, j ){
+    let suma = (a + b + c + d + e + f + g + h + i + j);
+    console.log("limpiezas realizadas= ", suma);
+    if (total =10)
+    {
+    console.log("Cumple");
+}
+    else (total< 10)
+    {
+    console.log("No cumple")
+}
+}
+limpiezas (1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+//Función 10
+let aseo= {
+    lunes: true,
+    martes: false,
+    miercoles: true,
+    jueves: true,
+    viernes: true,
+    sabado: true,
+    domingo: false,
+}
+function limpiezas (obj){
+    const {lunes, martes, miercoles, jueves, viernes} =obj;
+    console.log(`El aseo realizado: Lunes: ${lunes}, Martes: ${martes}, Miércoles: ${miercoles}, jueves: ${jueves}, viernes: ${viernes}`);
+
+}
+limpiezas (aseo)
+
+/*Funciones anónimas
+*/
+//Función 1
+let saludar= function (nombre, edad) {
+    console.log(`Mi nombre es ${nombre} y tengo ${edad} años.`);
+}
+
+saludar ("Juan Felipe", 44);
+
+//Función 2
+let estandar1= function (tema, fecha, responsable) {
+    console.log(`información ingresada con éxito ${tema} ${fecha} ${responsable}`);
+    }
+    
+estandar1 (`Tema 1`, `09/04/2024`, `Juan Felipe Gutiérrez`);
+
+//Función 3
+let jugueticos={
+    juguete01:"Balones",
+    juguete02:"Trenes",
+    juguete03:"carros",
+    juguete04:"Cintas",
+    juguete05:"Rascaencías",
+    juguete06:"Maracas",
+    juguete07:"Tambor",
+    juguete08:"Perros",
+    juguete09:"Peluches",
+    juguete10:"Cuentas",
+}
+let juguetes= function(jugueticos){
+    const{Balones, Trenes, carros, Cintas, Rascaencías, Maracas, Tambor, Perros, Peluches, Cuentas, Estrellas}=jugueticos
+    console.log(`Los juguetes de Joaquín son: ${Balones}, ${Trenes}, ${carros}, ${Cintas}, ${Rascaencías}, ${Maracas}, ${Tambor}, ${Perros}, ${Peluches}, ${Cuentas}, ${Estrellas}`)
+}
+juguetes(jugueticos)
+
+//Función 4
+let equipos= function(juguete01, juguete02, juguete03, juguete04, juguete05, juguete06, juguete07, juguete08, juguete09, juguete10){
+    console.log(`Los juguetes de Joaquín son: `, juguete01, juguete02, juguete03, juguete04, juguete05, juguete06, juguete07, juguete08, juguete09, juguete10)
+}
+equipos("Balones, ", "Trenes, ", "carros, ", "Cintas, ", "Rascaencías, ", "Maracas, ", "Tambor, ", "Perros, ", "Peluches, ", "Cuentas, ", "Estrellas.")
+
+//Funciones 5
 
